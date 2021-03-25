@@ -1,0 +1,142 @@
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+/*==Style cho menu===*/
+#menu ul {
+  background: #00802b; /*#009933*/
+  list-style-type: none;
+  text-align: center;
+}
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: -5px;
+}
+#menu a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  font-weight: normal;
+}
+#menu a:hover {
+  background:  #006622;
+  color: #ffffff;
+}
+.sub-menu a:hover{
+  background: #f0f0f5 !important;
+}
+
+/*==Dropdown Menu==*/
+.sub-menu {
+  position: absolute;
+   /* hides sub-menu */
+    visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+ }
+  
+#menu li {
+  position: relative;
+}
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+
+ 
+}
+.sub-menu {
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   background: #ffffff !important;
+}
+.sub-menu a {
+  color: #000000 !important;
+  font-weight: normal !important;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+.sub-menu > ul {
+  display: none !important;
+}
+
+.header {
+  background: #000000 !important;
+  height: 70px;
+}
+
+.sub-menu1 {
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+.sub-menu1 li {
+  background: #ffffff;
+
+}
+
+.sub-menu1 a {
+  color: black !important;
+}
+.sub-menu1 li {
+  position: absolute;
+  left: 2px;
+  outline: solid;
+}
+.sub-menu1 a {
+  
+}
+.sub-menu1 img {
+  border: none;
+  float: left;
+  margin:14px 30px 0px 10px;
+}
+
+.sub-menu1 a:hover{
+  background: #f0f0f5 !important;
+}
+.dmsp li {
+    border-color: #e6e6e6;
+}
+.sub-menu1{
+  position: absolute;
+   /* hides sub-menu */
+    visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+ }
+.dmsp:focus .sub-menu1,
+.dmsp:focus-within .sub-menu1,
+.dmsp:hover .sub-menu1 {
+  visibility: visible; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s; /* this removes the transition delay so the menu will be visible while the other styles transition */
+
+ 
+}
+.sub-menu1 > ul {
+  display: none !important;
+
+}
+
