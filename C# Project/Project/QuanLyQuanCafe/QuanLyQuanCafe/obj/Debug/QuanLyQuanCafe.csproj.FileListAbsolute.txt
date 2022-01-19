@@ -1,0 +1,14 @@
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe.config
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.exe
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\bin\Debug\QuanLyQuanCafe.pdb
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csprojResolveAssemblyReference.cache
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fLogin.resources
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.Properties.Resources.resources
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.csproj.GenerateResource.Cache
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.exe
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.pdb
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fTableManager.resources
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAccountProfile.resources
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\QuanLyQuanCafe.fAdmin.resources
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\RdlCompile.cache
+D:\BaiTapCuaTui\PTUDWD\DoAn\Project\QuanLyQuanCafe\QuanLyQuanCafe\obj\Debug\RdlCompile.compiled
