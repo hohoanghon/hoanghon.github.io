@@ -1,0 +1,62 @@
+<?php
+use Drupal\Core\Database\Database;
+ 
+/**
+ * Implements hook_schema().
+ */
+function example_user_register_schema(){
+    $schema['example_user_register'] = array(
+        'description' => 'The table for storing the user register data.',
+        'fields' => array(
+            'id' => array(
+                'description' => 'The primary identifier for user register',
+                'type' => 'serial',
+                'not null' => TRUE,
+                'unsigned' => TRUE,
+            ),
+            'name' => array(
+                'description' => 'Username',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+           'phone' => array(
+                'description' => 'phone number.',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+            ),
+           'email' => array(
+                'description' => 'Email of user',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+               
+            ),
+            'age' => array(
+                'description' => 'Age of user',
+                'type' => 'int',
+                'length' => 100,
+                'not null' => TRUE,
+               
+            ),
+            'age_1' => array(
+                'description' => 'Age of user',
+                'type' => 'int',
+                'length' => 100,
+                'not null' => TRUE,
+               
+            ),
+            'description' => array(
+                'description' => 'description of user',
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+            ),
+        ),
+        'primary key' => array('id'),
+    );
+    return $schema;
+}
